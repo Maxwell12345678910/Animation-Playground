@@ -105,3 +105,24 @@ a {
     color-scheme: dark;
   }
 }
+
+
+
+.parent1{
+           background-color:red;
+           height:800px;
+           width:800px;
+}
+
+
+.child1{
+           background-color: blue;
+           height:800px;
+           width:80px;
+           transition: transform 750ms;
+       }
+.parent1:hover .child1{
+  /* background-color: yellow; */
+  transform: translateX(400px);
+}
+
